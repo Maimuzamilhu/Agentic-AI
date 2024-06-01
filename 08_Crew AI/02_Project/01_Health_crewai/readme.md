@@ -47,4 +47,10 @@ Below is an example of what you can expect when you run the application:
 !["Output"](02_Project/00003.png)
 
 
-![Health CrewAI Output][]The application will generate personalized recommendations, including dietary guidelines, health considerations, and other important advice tailored to the user's input.## ContributingWe welcome contributions from the community! If you would like to contribute, please follow these steps:1. Fork the repository.2. Create a new branch (`git checkout -b feature-branch`).3. Make your changes and commit them (`git commit -m 'Add some feature'`).4. Push to the branch (`git push origin feature-branch`).5. Open a pull request.## LicenseThis project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.---Thank you for using Health CrewAI!
+![Health CrewAI Output][]
+The application will generate personalized recommendations, including dietary guidelines, health considerations, and other important advice tailored to the user's input.## ContributingWe welcome contributions from the community! If you would like to contribute, please follow these steps
+:1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.## LicenseThis project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.---Thank you for using Health CrewAI!
