@@ -42,7 +42,7 @@ Welcome to the Health CrewAI Application! This project provides personalized hea
 ### Sample Output
 Below is an example of what you can expect when you run the application:
 
-!["UI Interface"](02_Project/0001.png)
+!["UI Interface"](08_Crew AI\02_Project\01_Health_crewai\0001.png)
 !["Input"](02_Project/00002.png)
 !["Output"](02_Project/00003.png)
 
