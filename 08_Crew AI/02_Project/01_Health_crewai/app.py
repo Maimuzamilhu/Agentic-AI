@@ -32,7 +32,7 @@ serper_tool = SerperDevTool(api_key=serper_api_key)
 llm = ChatGoogleGenerativeAI(
     model="gemini-pro",
     verbose=True,
-    temperature=0.7,  # Adjusted temperature
+    temperature=0.7, 
     google_api_key=google_api_key
 )
 
@@ -40,6 +40,7 @@ llm = ChatGoogleGenerativeAI(
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+#------Agents-----------------
 def create_crewai_setup(age, gender, disease):
     # Define Agents
     fitness_expert = Agent(
@@ -79,7 +80,7 @@ def create_crewai_setup(age, gender, disease):
         llm=llm,
         allow_delegation=True,
     )
-
+#---------------TASKS------------------------------
     task1 = Task(
         description=f"""Analyze the fitness requirements for a {age}-year-old {gender} with {disease}. 
                         Provide recommendations for exercise routines and fitness strategies.""",
@@ -151,16 +152,16 @@ def main():
 
 
 
-    # Specify the image path
+    
     image_path = "C:\\Users\\PMLS\Desktop\\02_Project\\AI ASSIS.jpeg"
 
-    # Open the original image
+    
     original_image = Image.open(image_path)
 
-    # Resize the image to your desired dimensions (e.g., 600x400 pixels)
+    # Resize the imG
     resized_image = original_image.resize((600, 400), Image.ANTIALIAS)
 
-    # Display the resized image
+    # Display 
     st.image(resized_image, caption="Health CrewAI", use_column_width=True)
 
 
