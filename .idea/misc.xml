@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (ice_breaker-Izk19I2y)" project-jdk-type="Python SDK" />
+  <component name="Black">
+    <option name="sdkName" value="Python 3.12 (ice_breaker-Izk19I2y)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (FastAPI-DHbqs1lZ)" project-jdk-type="Python SDK" />
 </project>
