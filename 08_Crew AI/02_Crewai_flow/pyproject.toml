@@ -1,0 +1,20 @@
+[project]
+name = "02-crewai-flow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Maimuzamilhu", email = "muzamilkhalid808@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.102.0",
+]
+
+[project.scripts]
+02-crewai-flow = "02_crewai_flow:main"
+pici = "02_crewai_flow.main:Kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

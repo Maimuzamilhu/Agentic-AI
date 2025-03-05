@@ -1,0 +1,11 @@
+crewai_tools==0.1.6 
+
+langchain_google_genai
+langchain-community
+langchain
+crewai
+duckduckgo-search
+gradio
+langchain-core
+langchain_google_genai
+streamlit

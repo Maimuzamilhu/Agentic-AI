@@ -1,0 +1,17 @@
+[project]
+name = "explore-uv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Maimuzamilhu", email = "muzamilkhalid808@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+explore-uv = "explore_uv:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
