@@ -5,6 +5,9 @@
       <excludeFolder url="file://$MODULE_DIR$/08_Crew AI/01_uv/02 LiteLLM/01_Litellm_uv/.venv/Lib" />
       <excludeFolder url="file://$MODULE_DIR$/08_Crew AI/01_uv/02 LiteLLM/01_Litellm_uv/.venv/Scripts" />
       <excludeFolder url="file://$MODULE_DIR$/08_Crew AI/crew_workflow_project1/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/12 Openai agentic SDK/01_chainlit/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/12 Openai agentic SDK/01_chainlit/.venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/12 Openai agentic SDK/01_chainlit/.venv/Scripts" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.12 (AUTOWED)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
