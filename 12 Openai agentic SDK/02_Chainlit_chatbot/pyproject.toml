@@ -1,0 +1,11 @@
+[project]
+name = "02-chainlit-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.4.201",
+    "openai-agents>=0.0.6",
+    "openai-sdk>=0.1.0",
+]
