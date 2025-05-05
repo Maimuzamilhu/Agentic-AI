@@ -1,0 +1,21 @@
+[project]
+name = "projectcrew"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Maimuzamilhu", email = "muzamilkhalid808@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.105.0",
+    "crewai-tools>=0.38.0",
+]
+
+[project.scripts]
+projectcrew = "projectcrew:main"
+crewflow =     "projectcrew.main:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,10 +1,55 @@
+# Environment variables
 .env
 /10 LLM Projects/01 Building a Summarization project/.env
 10 LLM Projects\02 Communication with websites/.env
-.env
+
+# Virtual environments
 /12 Openai agentic SDK/02_Chainlit_chatbot/.venv/
 /12 Openai agentic SDK/02_Chainlit_chatbot/.files/
 /12 Openai agentic SDK/02_Chainlit_chatbot/.chainlit/
 /12 Openai agentic SDK/04_Streaming/.venv/
 /.venv/
 /12 Openai agentic SDK/05_tools/.venv/
+**/.venv/
+**/venv/
+**/env/
+**/.env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+**/__pycache__/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+**/node_modules/
+**/.chainlit/
+**/.files/
